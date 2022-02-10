@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="RelaxApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Y65-r0-Gs6">
+                                <rect key="frame" x="10" y="54" width="394" height="798"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oes-hs-yTv">
+                                        <rect key="frame" x="0.0" y="0.0" width="394" height="126.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="1"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Breaking ice" backgroundImage="142772_shutterstock_92541790.jpg"/>
+                                        <connections>
+                                            <action selector="pressedButtons:" destination="BYZ-38-t0r" eventType="touchUpInside" id="O3f-h9-TlJ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NC5-IO-l8d">
+                                        <rect key="frame" x="0.0" y="134.5" width="394" height="126"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="1"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Lake waves" backgroundImage="4.jpg"/>
+                                        <connections>
+                                            <action selector="pressedButtons:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TFg-vi-Khy"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="81w-On-g8E">
+                                        <rect key="frame" x="0.0" y="268.5" width="394" height="126.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="1"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Wind" backgroundImage="54ac8d5f8f2568024e60e932a476bf60.jpeg"/>
+                                        <connections>
+                                            <action selector="pressedButtons:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C8i-Xx-TBO"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QkG-CG-Jqw">
+                                        <rect key="frame" x="0.0" y="403" width="394" height="126.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="1"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Ocean waves" backgroundImage="credit_mohamed-khaki-eyeem-getty-images_web.jpg"/>
+                                        <connections>
+                                            <action selector="pressedButtons:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YH9-Wf-owy"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y0G-Lo-DX0">
+                                        <rect key="frame" x="0.0" y="537.5" width="394" height="126"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="1"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Fire" backgroundImage="photo-1517594422361-5eeb8ae275a9.jpeg"/>
+                                        <connections>
+                                            <action selector="pressedButtons:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Eg9-yh-JOj"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k5a-fx-ldp">
+                                        <rect key="frame" x="0.0" y="671.5" width="394" height="126.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="1"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Rain" backgroundImage="rainstorm.jpg"/>
+                                        <connections>
+                                            <action selector="pressedButtons:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A5v-Aa-gxL"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Y65-r0-Gs6" secondAttribute="trailing" constant="10" id="bdQ-Ug-wpF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Y65-r0-Gs6" secondAttribute="bottom" constant="10" id="mvM-5u-dj4"/>
+                            <constraint firstItem="Y65-r0-Gs6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="ug0-8i-djx"/>
+                            <constraint firstItem="Y65-r0-Gs6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="ygc-jh-3Hx"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="81.696428571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="142772_shutterstock_92541790.jpg" width="768" height="402"/>
+        <image name="4.jpg" width="852" height="480"/>
+        <image name="54ac8d5f8f2568024e60e932a476bf60.jpeg" width="2400" height="1195"/>
+        <image name="credit_mohamed-khaki-eyeem-getty-images_web.jpg" width="1200" height="675"/>
+        <image name="photo-1517594422361-5eeb8ae275a9.jpeg" width="1000" height="667"/>
+        <image name="rainstorm.jpg" width="799" height="431"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
